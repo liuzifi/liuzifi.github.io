@@ -10,31 +10,55 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="online-installer.php所在文件目录位置： /usr/home/username/domains/username.serv00.net/public_html 清理public_html文当前文件：删除您当前上传的所有HTMLy文件 下载在线安装器：
+<meta name="description" content="本来想让 ai 撸一个代理 cloudflare 或者 google doh 的服务，但是发现论坛里已经有大量现成的 doh 可以使用，又省下了不少 token :
 
-访问 https://github.com/danpros/htmly/releases 下载最新版本的 online-installer.php 或者从 https://sourceforge.net/projects/htmly.mirror/files/ 下载
+首先是始皇的 2 个 doh
+https://aaa.ddd.oaifree.com/query-dns
+https://i4cm5lqxfu.cloudflare-gateway.com/dns-query
+[OAIFree 这个域名换了个方式跟大家见面](https://linux.do/t/topic/1150121)
+赛博菩萨提供的 doh
+上面始皇帖子里有配置方式，需要验证支付方式
+https://[任意子域].cloudflare-gateway.com/dns-query [Cloudflare 的 DNS over https (DOH) 地址](https://linux.do/t/topic/697242)
+佬友的公益 doh
+https://linux.do/t/topic/1177430/110
+https://linux.do/t/topic/1373963
+公共 doh
+[分享的海量 DoH](https://linux.do/t/topic/1151240)
+自建 doh，以下方案均免费
+Adguard
+[Zeabur 免费部署 Adguard Home 私人 DNS 教程 加密 DNS 自建 DOH](https://linux.do/t/topic/1214569)
+[ClawCloud Run 免费部署 Adguard Home 私人 DNS 教程 加密 DNS 自建 DOH](https://linux.do/t/topic/1221286)
+RethinkDNS
+[GitHub - serverless-dns/serverless-dns: The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io](https://github.com/serverless-dns/serverless-dns)
+doh-cf-workers
+[GitHub - tina-hello/doh-cf-workers: DNS-over-HTTPS proxy on Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers)。">
+<meta property="og:title" content="doh方案汇总">
+<meta property="og:description" content="本来想让 ai 撸一个代理 cloudflare 或者 google doh 的服务，但是发现论坛里已经有大量现成的 doh 可以使用，又省下了不少 token :
 
-上传单个文件：只需将online-installer.php上传到您的 public_html 目录 运行安装：访问 https://username.serv00.net/online-installer.php
-
-在线安装器的优势：
-
-✅ 自动下载最新版本 ✅ 自动处理所有依赖 ✅ 自动设置文件权限
-。">
-<meta property="og:title" content="serv00通过online-installer.php文件快速安装HTMLy博客">
-<meta property="og:description" content="online-installer.php所在文件目录位置： /usr/home/username/domains/username.serv00.net/public_html 清理public_html文当前文件：删除您当前上传的所有HTMLy文件 下载在线安装器：
-
-访问 https://github.com/danpros/htmly/releases 下载最新版本的 online-installer.php 或者从 https://sourceforge.net/projects/htmly.mirror/files/ 下载
-
-上传单个文件：只需将online-installer.php上传到您的 public_html 目录 运行安装：访问 https://username.serv00.net/online-installer.php
-
-在线安装器的优势：
-
-✅ 自动下载最新版本 ✅ 自动处理所有依赖 ✅ 自动设置文件权限
-。">
+首先是始皇的 2 个 doh
+https://aaa.ddd.oaifree.com/query-dns
+https://i4cm5lqxfu.cloudflare-gateway.com/dns-query
+[OAIFree 这个域名换了个方式跟大家见面](https://linux.do/t/topic/1150121)
+赛博菩萨提供的 doh
+上面始皇帖子里有配置方式，需要验证支付方式
+https://[任意子域].cloudflare-gateway.com/dns-query [Cloudflare 的 DNS over https (DOH) 地址](https://linux.do/t/topic/697242)
+佬友的公益 doh
+https://linux.do/t/topic/1177430/110
+https://linux.do/t/topic/1373963
+公共 doh
+[分享的海量 DoH](https://linux.do/t/topic/1151240)
+自建 doh，以下方案均免费
+Adguard
+[Zeabur 免费部署 Adguard Home 私人 DNS 教程 加密 DNS 自建 DOH](https://linux.do/t/topic/1214569)
+[ClawCloud Run 免费部署 Adguard Home 私人 DNS 教程 加密 DNS 自建 DOH](https://linux.do/t/topic/1221286)
+RethinkDNS
+[GitHub - serverless-dns/serverless-dns: The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io](https://github.com/serverless-dns/serverless-dns)
+doh-cf-workers
+[GitHub - tina-hello/doh-cf-workers: DNS-over-HTTPS proxy on Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers)。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://liuzifi.github.io/post/serv00-tong-guo-online-installer.php-wen-jian-kuai-su-an-zhuang-HTMLy-bo-ke.html">
+<meta property="og:url" content="https://liuzifi.github.io/post/doh-fang-an-hui-zong.html">
 <meta property="og:image" content="https://himg.bdimg.com/sys/portrait/item/pp.1.81755346.IPCXwIuUf-I9BSkNlFyAfQ?_t=1754724140474">
-<title>serv00通过online-installer.php文件快速安装HTMLy博客</title>
+<title>doh方案汇总</title>
 
 
 
@@ -67,7 +91,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">serv00通过online-installer.php文件快速安装HTMLy博客</h1>
+<h1 class="postTitle">doh方案汇总</h1>
 <div class="title-right">
     <a href="https://liuzifi.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -75,7 +99,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/liuzifi/liuzifi.github.io/issues/1" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/liuzifi/liuzifi.github.io/issues/2" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -91,11 +115,27 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>online-installer.php所在文件目录位置： /usr/home/username/domains/username.serv00.net/public_html 清理public_html文当前文件：删除您当前上传的所有HTMLy文件 下载在线安装器：</p>
-<p>访问 <a href="https://github.com/danpros/htmly/releases">https://github.com/danpros/htmly/releases</a> 下载最新版本的 online-installer.php 或者从 <a href="https://sourceforge.net/projects/htmly.mirror/files/" rel="nofollow">https://sourceforge.net/projects/htmly.mirror/files/</a> 下载</p>
-<p>上传单个文件：只需将online-installer.php上传到您的 public_html 目录 运行安装：访问 <a href="https://username.serv00.net/online-installer.php" rel="nofollow">https://username.serv00.net/online-installer.php</a></p>
-<p>在线安装器的优势：</p>
-<p>✅ 自动下载最新版本 ✅ 自动处理所有依赖 ✅ 自动设置文件权限</p></div>
+<div class="markdown-body" id="postBody"><p>本来想让 ai 撸一个代理 cloudflare 或者 google doh 的服务，但是发现论坛里已经有大量现成的 doh 可以使用，又省下了不少 token :</p>
+<p>首先是始皇的 2 个 doh<br>
+<a href="https://aaa.ddd.oaifree.com/query-dns" rel="nofollow">https://aaa.ddd.oaifree.com/query-dns</a><br>
+<a href="https://i4cm5lqxfu.cloudflare-gateway.com/dns-query" rel="nofollow">https://i4cm5lqxfu.cloudflare-gateway.com/dns-query</a><br>
+<a href="https://linux.do/t/topic/1150121" rel="nofollow">OAIFree 这个域名换了个方式跟大家见面</a><br>
+赛博菩萨提供的 doh<br>
+上面始皇帖子里有配置方式，需要验证支付方式<br>
+https://[任意子域].cloudflare-gateway.com/dns-query <a href="https://linux.do/t/topic/697242" rel="nofollow">Cloudflare 的 DNS over https (DOH) 地址</a><br>
+佬友的公益 doh<br>
+<a href="https://linux.do/t/topic/1177430/110" rel="nofollow">https://linux.do/t/topic/1177430/110</a><br>
+<a href="https://linux.do/t/topic/1373963" rel="nofollow">https://linux.do/t/topic/1373963</a><br>
+公共 doh<br>
+<a href="https://linux.do/t/topic/1151240" rel="nofollow">分享的海量 DoH</a><br>
+自建 doh，以下方案均免费<br>
+Adguard<br>
+<a href="https://linux.do/t/topic/1214569" rel="nofollow">Zeabur 免费部署 Adguard Home 私人 DNS 教程 加密 DNS 自建 DOH</a><br>
+<a href="https://linux.do/t/topic/1221286" rel="nofollow">ClawCloud Run 免费部署 Adguard Home 私人 DNS 教程 加密 DNS 自建 DOH</a><br>
+RethinkDNS<br>
+<a href="https://github.com/serverless-dns/serverless-dns">GitHub - serverless-dns/serverless-dns: The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io</a><br>
+doh-cf-workers<br>
+<a href="https://github.com/tina-hello/doh-cf-workers">GitHub - tina-hello/doh-cf-workers: DNS-over-HTTPS proxy on Cloudflare Workers</a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>

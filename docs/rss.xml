@@ -1,5 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>6's blog</title><link>https://liuzifi.github.io</link><description>斯雯倪嘉</description><copyright>6's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://himg.bdimg.com/sys/portrait/item/pp.1.81755346.IPCXwIuUf-I9BSkNlFyAfQ?_t=1754724140474</url><title>avatar</title><link>https://liuzifi.github.io</link></image><lastBuildDate>Sat, 09 Aug 2025 07:26:18 +0000</lastBuildDate><managingEditor>6's blog</managingEditor><ttl>60</ttl><webMaster>6's blog</webMaster><item><title>serv00通过online-installer.php文件快速安装HTMLy博客</title><link>https://liuzifi.github.io/post/serv00-tong-guo-online-installer.php-wen-jian-kuai-su-an-zhuang-HTMLy-bo-ke.html</link><description>online-installer.php所在文件目录位置： /usr/home/username/domains/username.serv00.net/public_html 清理public_html文当前文件：删除您当前上传的所有HTMLy文件 下载在线安装器：
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>6's blog</title><link>https://liuzifi.github.io</link><description>斯雯倪嘉</description><copyright>6's blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://himg.bdimg.com/sys/portrait/item/pp.1.81755346.IPCXwIuUf-I9BSkNlFyAfQ?_t=1754724140474</url><title>avatar</title><link>https://liuzifi.github.io</link></image><lastBuildDate>Sun, 15 Mar 2026 12:05:19 +0000</lastBuildDate><managingEditor>6's blog</managingEditor><ttl>60</ttl><webMaster>6's blog</webMaster><item><title>doh方案汇总</title><link>https://liuzifi.github.io/post/doh-fang-an-hui-zong.html</link><description>本来想让 ai 撸一个代理 cloudflare 或者 google doh 的服务，但是发现论坛里已经有大量现成的 doh 可以使用，又省下了不少 token :
+
+首先是始皇的 2 个 doh
+https://aaa.ddd.oaifree.com/query-dns
+https://i4cm5lqxfu.cloudflare-gateway.com/dns-query
+[OAIFree 这个域名换了个方式跟大家见面](https://linux.do/t/topic/1150121)
+赛博菩萨提供的 doh
+上面始皇帖子里有配置方式，需要验证支付方式
+https://[任意子域].cloudflare-gateway.com/dns-query [Cloudflare 的 DNS over https (DOH) 地址](https://linux.do/t/topic/697242)
+佬友的公益 doh
+https://linux.do/t/topic/1177430/110
+https://linux.do/t/topic/1373963
+公共 doh
+[分享的海量 DoH](https://linux.do/t/topic/1151240)
+自建 doh，以下方案均免费
+Adguard
+[Zeabur 免费部署 Adguard Home 私人 DNS 教程 加密 DNS 自建 DOH](https://linux.do/t/topic/1214569)
+[ClawCloud Run 免费部署 Adguard Home 私人 DNS 教程 加密 DNS 自建 DOH](https://linux.do/t/topic/1221286)
+RethinkDNS
+[GitHub - serverless-dns/serverless-dns: The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io](https://github.com/serverless-dns/serverless-dns)
+doh-cf-workers
+[GitHub - tina-hello/doh-cf-workers: DNS-over-HTTPS proxy on Cloudflare Workers](https://github.com/tina-hello/doh-cf-workers)。</description><guid isPermaLink="true">https://liuzifi.github.io/post/doh-fang-an-hui-zong.html</guid><pubDate>Sun, 15 Mar 2026 11:53:29 +0000</pubDate></item><item><title>serv00通过online-installer.php文件快速安装HTMLy博客</title><link>https://liuzifi.github.io/post/serv00-tong-guo-online-installer.php-wen-jian-kuai-su-an-zhuang-HTMLy-bo-ke.html</link><description>online-installer.php所在文件目录位置： /usr/home/username/domains/username.serv00.net/public_html 清理public_html文当前文件：删除您当前上传的所有HTMLy文件 下载在线安装器：
 
 访问 https://github.com/danpros/htmly/releases 下载最新版本的 online-installer.php 或者从 https://sourceforge.net/projects/htmly.mirror/files/ 下载
 
